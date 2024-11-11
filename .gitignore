@@ -1,0 +1,4 @@
+test1
+GaAs/*
+!GaAs/GaAs.base.tar
+local/__pycache__

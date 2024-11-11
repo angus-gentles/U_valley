@@ -1,0 +1,1 @@
+Informations: finding the valley of U space, in this case of Ga-4p and As-4p, versus the experimental bandgap.

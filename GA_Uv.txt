@@ -1,0 +1,533 @@
+ 
+:: initializing oneAPI environment ...
+   slurm_script: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: 
+:: advisor -- latest
+:: ccl -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: mkl -- latest
+:: mpi -- latest
+:: tbb -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+Abort(1) on node 38 (rank 38 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38)
+Abort(1) on node 9 (rank 9 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9)
+Abort(1) on node 7 (rank 7 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7)
+Abort(1) on node 77 (rank 77 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 77
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 77)
+Abort(1) on node 99 (rank 99 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 99
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 99)
+Abort(1) on node 68 (rank 68 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68)
+Abort(1) on node 57 (rank 57 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 57
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 57)
+Abort(1) on node 22 (rank 22 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22)
+Abort(1) on node 37 (rank 37 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37)
+Abort(1) on node 66 (rank 66 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 66
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 66)
+Abort(1) on node 123 (rank 123 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 123
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 123)
+Abort(1) on node 1 (rank 1 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1)
+Abort(1) on node 113 (rank 113 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 113
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 113)
+Abort(1) on node 18 (rank 18 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18)
+Abort(1) on node 106 (rank 106 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 106
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 106)
+Abort(1) on node 88 (rank 88 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 88
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 88)
+slurmstepd: error: *** STEP 4233746.2 ON n3501-036 CANCELLED AT 2024-11-11T16:44:36 ***
+Abort(1) on node 102 (rank 102 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 102
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 102)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: n3501-036: tasks 0-37,39-98,100-127: Killed
+srun: error: n3501-036: tasks 38,99: Exited with exit code 1
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+from test_input_xml: input file not opened or empty
+Abort(1) on node 68 (rank 68 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68)
+Abort(1) on node 104 (rank 104 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 104
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 104)
+Abort(1) on node 56 (rank 56 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56)
+slurmstepd: error: *** STEP 4233746.5 ON n3501-036 CANCELLED AT 2024-11-11T16:45:33 ***
+Abort(1) on node 69 (rank 69 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 69
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 69)
+Abort(1) on node 71 (rank 71 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 71
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 71)
+Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122)
+Abort(1) on node 93 (rank 93 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 93
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 93)
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+Abort(1) on node 112 (rank 112 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 112
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 112)
+Abort(1) on node 8 (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+Abort(1) on node 80 (rank 80 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 80
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 80)
+Abort(1) on node 27 (rank 27 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27)
+Abort(1) on node 79 (rank 79 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79)
+srun: error: n3501-036: tasks 0-67,69-103,105-127: Killed
+srun: error: n3501-036: tasks 68,104: Exited with exit code 1
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+Abort(1) on node 72 (rank 72 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 72
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 72)
+Abort(1) on node 97 (rank 97 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97)
+Abort(1) on node 76 (rank 76 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 76
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 76)
+Abort(1) on node 75 (rank 75 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75)
+Abort(1) on node 119 (rank 119 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119)
+Abort(1) on node 67 (rank 67 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67)
+Abort(1) on node 73 (rank 73 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73)
+Abort(1) on node 101 (rank 101 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101)
+slurmstepd: error: *** STEP 4233746.8 ON n3501-036 CANCELLED AT 2024-11-11T16:46:26 ***
+Abort(1) on node 8 (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+Abort(1) on node 45 (rank 45 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 45
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 45)
+Abort(1) on node 87 (rank 87 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 87
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 87)
+srun: error: n3501-036: tasks 0,72,76: Exited with exit code 1
+srun: error: n3501-036: tasks 1-71,73-75,77-127: Killed
+Abort(1) on node 72 (rank 72 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 72
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 72)
+Abort(1) on node 51 (rank 51 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 51
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 51)
+Abort(1) on node 77 (rank 77 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 77
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 77)
+Abort(1) on node 75 (rank 75 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75)
+Abort(1) on node 79 (rank 79 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79)
+Abort(1) on node 78 (rank 78 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 78
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 78)
+Abort(1) on node 112 (rank 112 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 112
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 112)
+Abort(1) on node 109 (rank 109 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 109
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 109)
+Abort(1) on node 2 (rank 2 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2)
+Abort(1) on node 111 (rank 111 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 111
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 111)
+Abort(1) on node 18 (rank 18 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18)
+Abort(1) on node 70 (rank 70 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 70
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 70)
+Abort(1) on node 107 (rank 107 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107)
+Abort(1) on node 106 (rank 106 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 106
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 106)
+Abort(1) on node 31 (rank 31 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31)
+Abort(1) on node 116 (rank 116 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116)
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+Abort(1) on node 121 (rank 121 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 121
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 121)
+Abort(1) on node 113 (rank 113 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 113
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 113)
+Abort(1) on node 29 (rank 29 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 29
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 29)
+Abort(1) on node 96 (rank 96 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96)
+Abort(1) on node 120 (rank 120 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 120
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 120)
+Abort(1) on node 125 (rank 125 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 125
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 125)
+Abort(1) on node 127 (rank 127 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 127
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 127)
+Abort(1) on node 39 (rank 39 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 39
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 39)
+Abort(1) on node 55 (rank 55 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 55
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 55)
+Abort(1) on node 24 (rank 24 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24)
+Abort(1) on node 60 (rank 60 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 60
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 60)
+Abort(1) on node 50 (rank 50 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 50
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 50)
+Abort(1) on node 54 (rank 54 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 54
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 54)
+Abort(1) on node 114 (rank 114 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 114
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 114)
+Abort(1) on node 6 (rank 6 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6)
+Abort(1) on node 67 (rank 67 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67)
+Abort(1) on node 76 (rank 76 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 76
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 76)
+Abort(1) on node 92 (rank 92 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 92
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 92)
+Abort(1) on node 49 (rank 49 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 49
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 49)
+Abort(1) on node 28 (rank 28 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28)
+Abort(1) on node 36 (rank 36 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 36
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 36)
+Abort(1) on node 93 (rank 93 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 93
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 93)
+Abort(1) on node 81 (rank 81 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 81
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 81)
+Abort(1) on node 16 (rank 16 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16)
+Abort(1) on node 37 (rank 37 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37)
+Abort(1) on node 53 (rank 53 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 53
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 53)
+Abort(1) on node 69 (rank 69 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 69
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 69)
+Abort(1) on node 9 (rank 9 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9)
+Abort(1) on node 80 (rank 80 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 80
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 80)
+Abort(1) on node 91 (rank 91 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 91
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 91)
+Abort(1) on node 35 (rank 35 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 35
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 35)
+Abort(1) on node 82 (rank 82 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 82
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 82)
+Abort(1) on node 108 (rank 108 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 108
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 108)
+Abort(1) on node 68 (rank 68 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68)
+Abort(1) on node 110 (rank 110 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 110
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 110)
+Abort(1) on node 1 (rank 1 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1)
+Abort(1) on node 123 (rank 123 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 123
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 123)
+Abort(1) on node 42 (rank 42 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42)
+Abort(1) on node 71 (rank 71 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 71
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 71)
+Abort(1) on node 95 (rank 95 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95)
+Abort(1) on node 117 (rank 117 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 117
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 117)
+Abort(1) on node 94 (rank 94 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 94
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 94)
+Abort(1) on node 43 (rank 43 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 43
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 43)
+Abort(1) on node 84 (rank 84 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 84
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 84)
+Abort(1) on node 33 (rank 33 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 33
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 33)
+Abort(1) on node 105 (rank 105 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 105
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 105)
+Abort(1) on node 10 (rank 10 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10)
+Abort(1) on node 52 (rank 52 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 52
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 52)
+Abort(1) on node 66 (rank 66 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 66
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 66)
+Abort(1) on node 97 (rank 97 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97)
+Abort(1) on node 101 (rank 101 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101)
+Abort(1) on node 23 (rank 23 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23)
+Abort(1) on node 40 (rank 40 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40)
+Abort(1) on node 62 (rank 62 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 62
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 62)
+Abort(1) on node 47 (rank 47 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47)
+Abort(1) on node 56 (rank 56 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56)
+Abort(1) on node 12 (rank 12 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12)
+Abort(1) on node 20 (rank 20 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20)
+Abort(1) on node 63 (rank 63 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 63
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 63)
+Abort(1) on node 19 (rank 19 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19)
+Abort(1) on node 26 (rank 26 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26)
+Abort(1) on node 14 (rank 14 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14)
+Abort(1) on node 102 (rank 102 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 102
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 102)
+Abort(1) on node 17 (rank 17 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17)
+Abort(1) on node 100 (rank 100 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 100
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 100)
+Abort(1) on node 11 (rank 11 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11)
+Abort(1) on node 34 (rank 34 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 34
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 34)
+Abort(1) on node 13 (rank 13 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13)
+Abort(1) on node 30 (rank 30 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30)
+Abort(1) on node 46 (rank 46 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 46
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 46)
+Abort(1) on node 119 (rank 119 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119)
+Abort(1) on node 38 (rank 38 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38)
+Abort(1) on node 83 (rank 83 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 83
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 83)
+Abort(1) on node 8 (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+Abort(1) on node 22 (rank 22 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22)
+Abort(1) on node 103 (rank 103 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 103
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 103)
+Abort(1) on node 59 (rank 59 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 59
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 59)
+Abort(1) on node 85 (rank 85 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 85
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 85)
+Abort(1) on node 73 (rank 73 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73)
+Abort(1) on node 64 (rank 64 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 64
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 64)
+Abort(1) on node 57 (rank 57 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 57
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 57)
+Abort(1) on node 7 (rank 7 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7)
+Abort(1) on node 126 (rank 126 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 126
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 126)
+Abort(1) on node 25 (rank 25 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25)
+Abort(1) on node 48 (rank 48 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 48
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 48)
+Abort(1) on node 99 (rank 99 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 99
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 99)
+Abort(1) on node 88 (rank 88 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 88
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 88)
+Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122)
+Abort(1) on node 89 (rank 89 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 89
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 89)
+Abort(1) on node 118 (rank 118 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 118
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 118)
+Abort(1) on node 58 (rank 58 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 58
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 58)
+Abort(1) on node 124 (rank 124 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 124
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 124)
+Abort(1) on node 5 (rank 5 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5)
+Abort(1) on node 27 (rank 27 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27)
+Abort(1) on node 61 (rank 61 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 61
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 61)
+Abort(1) on node 90 (rank 90 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 90
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 90)
+Abort(1) on node 87 (rank 87 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 87
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 87)
+Abort(1) on node 3 (rank 3 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3)
+Abort(1) on node 74 (rank 74 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 74
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 74)
+Abort(1) on node 21 (rank 21 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21)
+Abort(1) on node 4 (rank 4 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4)
+Abort(1) on node 32 (rank 32 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 32
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 32)
+Abort(1) on node 115 (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115)
+Abort(1) on node 104 (rank 104 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 104
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 104)
+Abort(1) on node 45 (rank 45 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 45
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 45)
+Abort(1) on node 65 (rank 65 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 65
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 65)
+Abort(1) on node 86 (rank 86 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 86
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 86)
+Abort(1) on node 98 (rank 98 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 98
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 98)
+Abort(1) on node 44 (rank 44 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 44
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 44)
+Abort(1) on node 15 (rank 15 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15)
+Abort(1) on node 41 (rank 41 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 41
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 41)
+slurmstepd: error: *** STEP 4233746.11 ON n3501-036 CANCELLED AT 2024-11-11T16:47:21 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: n3501-036: tasks 0-62,64-71,73-103,105-127: Killed
+srun: error: n3501-036: tasks 63,72,104: Exited with exit code 1
+from test_input_xml: input file not opened or empty
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+Abort(1) on node 76 (rank 76 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 76
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 76)
+Abort(1) on node 73 (rank 73 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73)
+Abort(1) on node 47 (rank 47 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47)
+Abort(1) on node 2 (rank 2 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2)
+Abort(1) on node 16 (rank 16 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16)
+Abort(1) on node 75 (rank 75 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75)
+Abort(1) on node 95 (rank 95 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95)
+Abort(1) on node 96 (rank 96 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96)
+Abort(1) on node 49 (rank 49 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 49
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 49)
+Abort(1) on node 40 (rank 40 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40)
+Abort(1) on node 120 (rank 120 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 120
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 120)
+Abort(1) on node 56 (rank 56 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56)
+Abort(1) on node 117 (rank 117 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 117
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 117)
+Abort(1) on node 4 (rank 4 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4)
+Abort(1) on node 115 (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115)
+Abort(1) on node 105 (rank 105 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 105
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 105)
+slurmstepd: error: *** STEP 4233746.14 ON n3501-036 CANCELLED AT 2024-11-11T16:48:14 ***
+Abort(1) on node 54 (rank 54 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 54
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 54)
+srun: error: n3501-036: tasks 0,73,76: Exited with exit code 1
+srun: error: n3501-036: tasks 1-72,74-75,77-127: Killed
+from test_input_xml: input file not opened or empty
+Abort(1) on node 79 (rank 79 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79)
+slurmstepd: error: *** STEP 4233746.17 ON n3501-036 CANCELLED AT 2024-11-11T16:49:08 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: n3501-036: task 79: Exited with exit code 1
+srun: error: n3501-036: task 64: Killed
+srun: error: n3501-036: tasks 0-63,65-78,80-127: Killed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+from test_input_xml: input file not opened or empty
+Abort(1) on node 43 (rank 43 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 43
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 43)
+slurmstepd: error: *** STEP 4233746.20 ON n3501-036 CANCELLED AT 2024-11-11T16:50:00 ***
+srun: error: n3501-036: task 43: Exited with exit code 1
+srun: error: n3501-036: tasks 0-42,44-127: Killed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+from test_input_xml: input file not opened or empty
+Abort(1) on node 107 (rank 107 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107)
+Abort(1) on node 19 (rank 19 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19)
+Abort(1) on node 90 (rank 90 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 90
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 90)
+slurmstepd: error: *** STEP 4233746.23 ON n3501-036 CANCELLED AT 2024-11-11T16:50:53 ***
+Abort(1) on node 95 (rank 95 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95)
+Abort(1) on node 42 (rank 42 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42)
+Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122)
+srun: error: n3501-036: tasks 0-106,108-127: Killed
+srun: error: n3501-036: task 107: Exited with exit code 1
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+Abort(1) on node 16 (rank 16 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16)
+Abort(1) on node 98 (rank 98 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 98
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 98)
+Abort(1) on node 97 (rank 97 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97)
+Abort(1) on node 8 (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+Abort(1) on node 56 (rank 56 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 56)
+Abort(1) on node 116 (rank 116 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116)
+Abort(1) on node 96 (rank 96 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96)
+Abort(1) on node 100 (rank 100 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 100
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 100)
+Abort(1) on node 38 (rank 38 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38)
+Abort(1) on node 83 (rank 83 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 83
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 83)
+Abort(1) on node 103 (rank 103 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 103
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 103)
+Abort(1) on node 115 (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115)
+Abort(1) on node 80 (rank 80 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 80
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 80)
+Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122)
+Abort(1) on node 75 (rank 75 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 75)
+slurmstepd: error: *** STEP 4233746.26 ON n3501-036 CANCELLED AT 2024-11-11T16:51:46 ***
+Abort(1) on node 104 (rank 104 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 104
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 104)
+srun: error: n3501-036: tasks 0,16,83: Exited with exit code 1
+srun: error: n3501-036: tasks 1-15,17-82,84-127: Killed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+from test_input_xml: input file not opened or empty
+Abort(1) on node 96 (rank 96 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 96)
+Abort(1) on node 91 (rank 91 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 91
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 91)
+Abort(1) on node 89 (rank 89 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 89
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 89)
+Abort(1) on node 122 (rank 122 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 122)
+Abort(1) on node 65 (rank 65 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 65
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 65)
+Abort(1) on node 67 (rank 67 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67)
+Abort(1) on node 121 (rank 121 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 121
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 121)
+slurmstepd: error: *** STEP 4233746.29 ON n3501-036 CANCELLED AT 2024-11-11T16:52:39 ***
+Abort(1) on node 11 (rank 11 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11)
+Abort(1) on node 26 (rank 26 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26)
+srun: error: n3501-036: tasks 0-88,90,92-95,97-127: Killed
+srun: error: n3501-036: tasks 89,91,96: Exited with exit code 1
+new points: [[-4.99  6.34]
+ [-5.    6.35]
+ [-5.    6.33]]
+[[-4.99  6.34]
+ [-5.    6.35]
+ [-5.    6.33]]
+[np.float64(1.5201093279126838), np.float64(1.522234389480962), np.float64(1.5154721254221577)]
+new points: [[-4.99  6.33]
+ [-5.01  6.33]
+ [-5.    6.32]]
+[[-4.99  6.33]
+ [-5.01  6.33]
+ [-5.    6.32]]
+[np.float64(1.5167244103651452), np.float64(1.5142267012313715), np.float64(1.5120973036721985)]
+new points: [[-4.99  6.32]
+ [-5.01  6.32]
+ [-5.    6.31]]
+[[-4.99  6.32]
+ [-5.01  6.32]
+ [-5.    6.31]]
+[np.float64(1.5133481202606616), np.float64(1.5108487613432615), np.float64(1.5087223265395753)]
