@@ -16,9 +16,9 @@ def extract_base(input_string):
     else:
         return input_string
     
-def run_stage(U,keys,int_dir):
+def run_stage(U,keys,int_dir,bina):
     os.chdir(int_dir)
-    run1=subprocess.run(['tar -xf GaAs.base.tar'],shell=True)
+    run1=subprocess.run(['tar -xf %s.base.tar'%bina],shell=True)
     list_1=os.listdir()
     list_in=[]
     for item in list_1:
@@ -36,7 +36,7 @@ def run_stage(U,keys,int_dir):
     for item in list_in:
         if 'relax.in' in item:
             base=extract_base(item)
-            run2=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s > %s'%('GaAs.relax.in','GaAs.relax.out')],shell=True)
+            run2=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.out'%(base,base)],shell=True)
     
     directory = 'tmp/*.save'
     pattern = 'wfc*.dat'
@@ -51,7 +51,7 @@ def run_stage(U,keys,int_dir):
             base=extract_base(item)
             run3=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.out'%(base,base)],shell=True)
 
-    run2=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.in'%(base,base)],shell=True)
+    #run2=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.in'%(base,base)],shell=True)
 
     data={}
     os.chdir('..')

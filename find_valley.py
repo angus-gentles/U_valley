@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from local.stage_functions import run_stage,extract_stage_data
 from local.meff import meff_kpoints_eigenvalues,get_xml_info
+import sys
 
 class TransGroup :
     def __init__(self):
@@ -19,7 +20,7 @@ transgroup=TransGroup()
 Eg_exp={'GaAs':1.519,'InAs':0.417,'GaSb':0.812,'InSb':0.235}
 
 
-def stage(r,old_point):
+def stage(r,old_point,keys,bina):
     U={}
     r_group=transgroup.apply(r)
     same=np.logical_not(np.logical_and(np.isclose(r_group,old_point)[:,0],np.isclose(r_group,old_point)[:,1]))
@@ -31,14 +32,14 @@ def stage(r,old_point):
     data_out_list=[]
     del_Eg=3.0
     for i,point in enumerate(new_points):
-        U['Ga-4p']=point[0]
-        U['As-4p']=point[1]
-        run_stage(U,['Ga-4p','As-4p'],'GaAs')
-        data_out1=extract_stage_data('GaAs','GaAs')
+        U[keys[0]]=point[0]
+        U[keys[1]]=point[1]
+        run_stage(U,keys,bina,bina)
+        data_out1=extract_stage_data(bina,bina)
         Egs.append(data_out1['Eg'])
         meffs.append(data_out1['meff'])
         latts.append(data_out1['a'])
-        del_Eg_new=np.abs(data_out1['Eg']-Eg_exp['GaAs'])
+        del_Eg_new=np.abs(data_out1['Eg']-Eg_exp[bina])
         #print(point,data_out1['Eg'])
         if del_Eg_new<del_Eg:
             lowest_ind=i
@@ -49,24 +50,28 @@ def stage(r,old_point):
     r_new=new_points[lowest_ind]
     return r_new,data_out_new
 
-if __name__=='__main__':
-    data_file='data_GaAs.csv'
+def main(bina,keys,r_start,old_point):
+    data_file='data_%s.csv'%bina
     with open(data_file,'w') as fd:
-        fd.write('U_%s,U_%s,a(A),Eg(eV),meff\n'%('Ga-4p','As-4p'))
-
-    r_start=np.array([-5,6.34])
-    old_point=np.array([-5.01,6.34])
-
-    run_stage({'Ga-4p':r_start[0],'As-4p':r_start[1]},['Ga-4p','As-4p'],'GaAs')
-    data_out=extract_stage_data('GaAs','GaAs')
+        fd.write('U_%s,U_%s,a(A),Eg(eV),meff\n'%tuple(keys))
+    run_stage({keys[0]:r_start[0],keys[1]:r_start[1]},keys,bina,bina)
+    data_out=extract_stage_data(bina,bina)
     with open(data_file,'a') as fd:
         fd.write("%s,%s,%s,%s,%s\n"%(r_start[0],r_start[1],data_out['a'],data_out['Eg'],data_out['meff']))
 
-    iterations=3
+    iterations=2000
     for i in range(iterations):
-        r_new,data_out_new=stage(r_start,old_point)
+        r_new,data_out_new=stage(r_start,old_point,keys,bina)
         r_new=np.round(r_new,2)
         with open(data_file,'a') as fd:
             fd.write("%s,%s,%s,%s,%s\n"%(r_new[0],r_new[1],data_out_new['a'],data_out_new['Eg'],data_out_new['meff']))
         old_point=r_start
         r_start=r_new 
+
+if __name__=='__main__':
+    args=sys.argv[1:]
+    bina=args[0]
+    keys=[args[1],args[2]]
+    r_start=np.array([float(args[3]),float(args[4])])
+    old_point=np.array([float(args[5]),float(args[6])])
+    main(bina,keys,r_start,old_point)

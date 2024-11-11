@@ -1,4 +1,11 @@
-test1
+test1/
 GaAs/*
 !GaAs/GaAs.base.tar
+InAs/*
+!InAs/InAs.base.tar
+GaSb/*
+!GaSb/GaSb.base.tar
+InSb/*
+!InSb/InSb.base.tar
 local/__pycache__
+*.txt
