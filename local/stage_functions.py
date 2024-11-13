@@ -32,27 +32,54 @@ def run_stage(U,keys,int_dir,bina):
         #s=re.sub('<%s>'%'As-4p',str(U['As-4p']),s)
         with open(infile,'w') as fo:
             fo.write(s)
-    
     for item in list_in:
         if 'relax.in' in item:
             base=extract_base(item)
             run2=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.out'%(base,base)],shell=True)
-    
     directory = 'tmp/*.save'
     pattern = 'wfc*.dat'
     for filename in glob.glob(os.path.join(directory, pattern)):
         os.remove(filename)
-        #print(f"Deleted file: {filename}")
-    
     subprocess.run(['rm -r ./meff/'],shell=True)
     shutil.copytree('tmp','meff')
     for item in list_in:
         if 'meff.in' in item:
             base=extract_base(item)
             run3=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.out'%(base,base)],shell=True)
+    data={}
+    os.chdir('..')
 
-    #run2=subprocess.run(['srun --mpi=pmi2 -n ${SLURM_NPROCS} pw.x -i %s.in > %s.in'%(base,base)],shell=True)
-
+    
+def run_stage_bound(U,keys,int_dir,bina):
+    os.chdir(int_dir)
+    run1=subprocess.run(['tar -xf %s.base.tar'%bina],shell=True)
+    list_1=os.listdir()
+    list_in=[]
+    nprocs=32
+    for item in list_1:
+        if '.in' in item:
+            list_in.append(item)
+    for infile in list_in:
+        with open(infile,'r') as fi:
+            s=fi.read()
+        for key in keys:
+            s=re.sub('<%s>'%key,str(U[key]),s)
+        with open(infile,'w') as fo:
+            fo.write(s)
+    for item in list_in:
+        if 'relax.in' in item:
+            base=extract_base(item)
+            run2=subprocess.run(['srun --mpi=pmi2 -n %s pw.x -i %s.in > %s.out'%(nprocs,base,base)],shell=True)
+    directory = 'tmp/*.save'
+    pattern = 'wfc*.dat'
+    for filename in glob.glob(os.path.join(directory, pattern)):
+        os.remove(filename)
+    subprocess.run(['rm -r ./meff/'],shell=True)
+    shutil.copytree('tmp','meff')
+    for item in list_in:
+        if 'meff.in' in item:
+            base=extract_base(item)
+            run3=subprocess.run(['srun --mpi=pmi2 -n %s pw.x -i %s.in > %s.out'%(nprocs,base,base)],shell=True)
     data={}
     os.chdir('..')
 
